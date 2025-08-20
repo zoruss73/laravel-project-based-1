@@ -9,10 +9,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home.index', [
-            'name' => 'Russel',
-            'Age' => 22,
-            'hobbies' => ['Reading', 'Gaming', 'Sleeping'],
-        ]);
+        return view('home.index');
     }
 }
